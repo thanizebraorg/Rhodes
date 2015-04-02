@@ -63,6 +63,7 @@ android:
     - sdcard
     - calendar
   version: "4.2.2"
+  abis: [arm, x86]
 extensions:
   - json
   - rhoxml
