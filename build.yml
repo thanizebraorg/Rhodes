@@ -55,6 +55,7 @@ android:
     - openssl.so
     - openssl
     - ezcrypto
+    - gmaps
 #- rawsensors
     - audiocapture
 #- rhoconnect-client
