@@ -1,6 +1,6 @@
 #sdkversion: "3.5.0"
 #sdk: c:/projects/rhodes
-name: "RhodesTestApp"
+name: "RhodesRMS5.1.1"
 #motorola_license_company: "Motorola Test and Validation"
 #motorola_license: "0277106A081D151A000307771A7E1C75"
 #motorola_license: "`OLrrql(`iVCdNt=PJ1DH=jKVc5O@ixKTtEMTWDVSQO@D2CnbLU@_)K(DvBALrln`WjnL@0n/[FLHhj$KEs.C?x)c(O6dju{2yA(;s;`"
@@ -15,10 +15,10 @@ applog: "rholog.txt"
 #  proxy: "http://wwwgate0.mot.com:1080"
 iphone:
   configuration: "Release"
-  sdk: iphoneos8.1
-  entitlements: ./production/Entitlements.plist
+  sdk: iphonesimulator8.1
   provisionprofile: 
-  codesignidentity: "iPhone Developer: Sunil Kumar (W8L77BLH6N)"
+  codesignidentity: 
+  entitlements: 
   BundleIdentifier: "com.rhomobile.retestapp"
   BundleURLScheme: "retestapp"
   emulatortarget: "iphone"
@@ -45,6 +45,7 @@ android:
   mapping: true
   apikey: AIzaSyAO-kqpun2qcLXe7EMO8Hxrmyj2ZsICR-c
   extensions:
+    - gmaps
     - barcode
     #- rainbow
     - nfc
@@ -58,6 +59,7 @@ android:
     - openssl
     - ezcrypto
     - gmaps
+    
 #- rawsensors
     - audiocapture
 #- rhoconnect-client
@@ -66,7 +68,6 @@ android:
     - sdcard
     - calendar
   version: "4.2.2"
-  abis: [arm, x86]
 extensions:
   - json
   - rhoxml
