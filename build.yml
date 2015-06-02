@@ -42,6 +42,8 @@ wm:
 symbian:
   uid: "0xe01c7e9f"
 android:
+  mapping: true
+  apikey: AIzaSyAO-kqpun2qcLXe7EMO8Hxrmyj2ZsICR-c
   extensions:
     - barcode
     #- rainbow
