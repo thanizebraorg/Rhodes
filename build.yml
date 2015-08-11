@@ -14,14 +14,13 @@ applog: "rholog.txt"
 #connection:
 #  proxy: "http://wwwgate0.mot.com:1080"
 iphone:
-  configuration: "Release"
+  configuration: Release
   sdk: "iphoneos8.3"
-  provisionprofile: 
+  provisionprofile:
   codesignidentity: "iPhone Developer"
-  entitlements: 
+  entitlements: ./production/Entitlements.plist
   BundleIdentifier: "com.rhomobile.retestapp"
   BundleURLScheme: "retestapp"
-  emulatortarget: "iphone"
 wp8:
   ajax_api_bridge: false
   productid: "dc201bf1-e2e9-012f-10dc-00216a8a58d0"
